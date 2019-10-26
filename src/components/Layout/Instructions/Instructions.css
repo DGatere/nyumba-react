@@ -1,0 +1,12 @@
+.content__instruction {
+    background: #f1ece5;
+    padding: 3rem;
+    margin: 4rem 0;
+}
+
+.instructions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
