@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700&display=swap');
+
+:root {
+    --soft-grey: #6e6a6a;
+}
+
+.form__select_theme_golden_white {
+    position: relative;
+    background: white;
+    color: goldenrod;
+    border: none;
+    border-right: 1px solid goldenrod;
+    border-radius: 0.1rem;
+    margin: 0;
+    padding: 0.8rem;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('../../../../assets/images/dropdown.svg');
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.form__option_pad {
+    font-size: 1rem;
+    padding: 1.8rem;
+}
+
+.form__button_theme_inverse {
+    background: goldenrod;
+    color: white;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+.form__button_theme_inverse:hover {
+    background: white;
+    color: var(--soft-grey);
+}

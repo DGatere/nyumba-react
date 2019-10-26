@@ -1,0 +1,24 @@
+.product-overview {
+    background: url('../../../assets/images/back.jpg') 0 0 / cover no-repeat;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-description_size-large {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: goldenrod;
+}
+
+.product-description_white-text {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.product-description_padding {
+    padding-bottom: 2rem;
+}
