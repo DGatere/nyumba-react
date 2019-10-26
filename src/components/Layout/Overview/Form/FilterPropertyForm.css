@@ -6,7 +6,7 @@
     border-right: 1px solid goldenrod;
     border-radius: 0.1rem;
     margin: 0;
-    padding: 0.8rem;
+    padding: 1rem 2rem;
     -webkit-appearance: none;
     appearance: none;
     background-image: url('../../../../assets/images/dropdown.svg');
@@ -18,7 +18,7 @@
 }
 
 .form__option_pad {
-    font-size: 1rem;
+    font-weight: bold;
     padding: 1.8rem;
 }
 
