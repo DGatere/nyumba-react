@@ -12,8 +12,6 @@ class FilterPropertyForm extends Component {
     };
 
     handleChange = event => {
-        console.log('event.target.name', event.target.name);
-        console.log('event.target.value', event.target.value);
         this.setState({ [event.target.name]: event.target.value });
     };
 
