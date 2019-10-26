@@ -1,0 +1,43 @@
+.product__item {
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+    margin: 1rem 1rem;
+}
+
+.product__img-holder {
+    position: relative;
+}
+
+.featured {
+    border: 1px solid red;
+    border-radius: 2rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    padding: 0.1rem 1.5rem;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.product__img-item {
+    height: 20%;
+    width: 100%;
+}
+
+.product__content {
+    padding: 1rem;
+}
+
+.product__text {
+    font-size: 1.2rem;
+}
+
+.product-price {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.product-duration {
+    color: #868181;
+}

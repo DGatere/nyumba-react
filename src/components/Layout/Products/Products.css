@@ -1,0 +1,17 @@
+.featured-product__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.featured-product__header {
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.featured-product__header_grey {
+    color: var(--soft-grey);
+    font-size: 1.2rem;
+}
