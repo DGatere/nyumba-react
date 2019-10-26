@@ -1,0 +1,24 @@
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 16rem 0;
+}
+
+.footer-text {
+    color: goldenrod;
+}
+
+.footer__link {
+    text-decoration: none;
+    border: 0.1rem solid goldenrod;
+    border-radius: 0.3rem;
+    padding: 1rem 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.footer__link:hover,
+.footer__link:active {
+    color: white;
+    background: goldenrod;
+}

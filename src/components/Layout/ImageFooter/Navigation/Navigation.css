@@ -1,0 +1,26 @@
+.footer-description {
+    width: 20rem;
+    color: white;
+}
+
+.footer-nav__items {
+    display: flex;
+    justify-content: center;
+    padding-top: 16rem;
+}
+
+.footer-nav__items li {
+    color: white;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.footer-list__item {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.footer-list_pad {
+    padding-top: 2rem;
+    margin-right: 4rem;
+}

@@ -6,6 +6,7 @@ import Overview from './Overview/Overview';
 import Products from './Products/Products';
 import Instructions from './Instructions/Instructions';
 import Partners from './Partners/Partners';
+import Footer from './ImageFooter/ImageFooter';
 
 const Layout = () => {
     return (
@@ -14,6 +15,7 @@ const Layout = () => {
             <Products />
             <Instructions />
             <Partners />
+            <Footer />
         </main>
     );
 };
