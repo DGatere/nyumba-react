@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700&display=swap');
+
+:root {
+    --soft-grey: #6e6a6a;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    grid-area: header;
+}
+
+.header-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav__items a {
+    text-decoration: none;
+}
+
+.header-nav__item {
+    margin: 0 1rem;
+    color: var(--soft-grey);
+    font-weight: 700;
+}
+
+.header-nav__link_grey {
+    color: var(--soft-grey);
+}
+
+.header-nav__link_grey:hover,
+.header-nav__link_grey:active {
+    color: goldenrod;
+}
+
+.header-nav__link_golden-border {
+    border: 0.1rem solid goldenrod;
+    border-radius: 0.3rem;
+    padding: 0.5rem 3rem;
+    color: var(--soft-grey);
+}
+
+.header-nav__link_golden-border:hover,
+.header-nav__link_golden-border:active {
+    background: goldenrod;
+    color: white;
+}
+
+.header-nav__link_theme-gold {
+    border: 0.1rem solid goldenrod;
+    border-radius: 0.3rem;
+    padding: 0.5rem 3rem;
+    background: goldenrod;
+    color: white;
+}
+
+.header-nav__link_theme-gold:hover,
+.header-nav__link_theme-gold:active {
+    background: white;
+    color: var(--soft-grey);
+}

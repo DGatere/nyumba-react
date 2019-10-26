@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="9px" viewBox="0 0 11 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>xxxhdpi/dropdown</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-563.000000, -390.000000)" fill="#daa520">
+            <g id="Group-6" transform="translate(328.000000, 370.000000)">
+                <g id="Group">
+                    <g id="Group-3" transform="translate(142.000000, 15.000000)">
+                        <path d="M99.4709587,6.93615218 L103.470959,12.2694855 C103.80233,12.7113133 103.712786,13.3381147 103.270959,13.6694855 C103.097863,13.7993076 102.887329,13.8694855 102.670959,13.8694855 L94.6709587,13.8694855 C94.1186739,13.8694855 93.6709587,13.4217703 93.6709587,12.8694855 C93.6709587,12.6531153 93.7411366,12.4425817 93.8709587,12.2694855 L97.8709587,6.93615218 C98.2023295,6.49432438 98.8291309,6.40478133 99.2709587,6.73615218 C99.3467643,6.79300643 99.4141044,6.86034652 99.4709587,6.93615218 Z" id="dropdown" transform="translate(98.670959, 9.869486) scale(-1, 1) rotate(-180.000000) translate(-98.670959, -9.869486) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
