@@ -6,6 +6,11 @@ const Header = () => {
     return (
         <header className='header'>
             <div>
+                <button className='toggle-button'>
+                    <span className='toggle-button__bar'></span>
+                    <span className='toggle-button__bar'></span>
+                    <span className='toggle-button__bar'></span>
+                </button>
                 <a href='# '>
                     <img src={require('../../assets/images/nyumba_logo.png')} alt='logo' />
                 </a>
