@@ -33,3 +33,23 @@
     background: white;
     color: var(--soft-grey);
 }
+
+@media (max-width: 75rem) {
+    .form__select_theme_golden_white {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 50rem) {
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__select_theme_golden_white {
+        margin: 0.1rem;
+        padding: 0.2rem 0.5rem;
+        font-size: 1rem;
+    }
+}
