@@ -10,3 +10,15 @@
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 50rem) {
+    .instructions {
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .instructions {
+        max-width: 40rem;
+    }
+}

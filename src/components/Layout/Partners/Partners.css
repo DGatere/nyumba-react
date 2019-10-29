@@ -16,3 +16,15 @@
 .partner__img_height {
     height: 10vh;
 }
+
+@media (max-width: 50rem) {
+    .partner__links {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .partner__img {
+        height: 5vh;
+        padding: 0 3rem;
+    }
+}
