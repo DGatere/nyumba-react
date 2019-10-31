@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
-import Header from './Header/Header';
-import Layout from './Layout/Layout';
-import SideDrawer from './SideDrawer/SideDrawer';
-import Backdrop from './Backdrop/Backdrop';
+import Header from '../../components/Header/Header';
+import SideDrawer from '../../components/SideDrawer/SideDrawer';
+import Backdrop from '../../components/Backdrop/Backdrop';
 
-class App extends Component {
+class Layout extends Component {
     state = {
         drawerOpen: false
     };
@@ -34,10 +33,10 @@ class App extends Component {
                 <Header toggle={this.drawerToggleClickHandler} />
                 <SideDrawer show={this.state.drawerOpen} />
                 {backDrop}
-                <Layout />
+                <main>{this.props.children}</main>
             </>
         );
     }
 }
 
-export default App;
+export default Layout;

@@ -10,7 +10,7 @@ const Product = () => {
                     <div className='featured'>featured</div>
                     <a href='# '>
                         <img
-                            src={require('../../../../assets/images/office.jpg')}
+                            src={require('../../../assets/images/office.jpg')}
                             alt='apartment'
                             className='product__img-item'
                         />

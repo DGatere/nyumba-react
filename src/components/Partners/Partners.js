@@ -10,17 +10,17 @@ const Partners = () => {
                 <div className='partner__links'>
                     <img
                         className='partner__img partner__img_height'
-                        src={require('../../../assets/images/findit.jpg')}
+                        src={require('../../assets/images/findit.jpg')}
                         alt='findit'
                     />
                     <img
                         className='partner__img'
-                        src={require('../../../assets/images/sokompare.png')}
+                        src={require('../../assets/images/sokompare.png')}
                         alt='sokompare'
                     />
                     <img
                         className='partner__img'
-                        src={require('../../../assets/images/vaal.png')}
+                        src={require('../../assets/images/vaal.png')}
                         alt='vaal'
                     />
                 </div>

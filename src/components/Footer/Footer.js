@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './ImageFooter.css';
+import './Footer.css';
 import Content from './Content/Content';
 import Navigation from './Navigation/Navigation';
 
-const ImageFooter = () => {
+const Footer = () => {
     return (
         <footer className='footer'>
             <Content />
@@ -13,4 +13,4 @@ const ImageFooter = () => {
     );
 };
 
-export default ImageFooter;
+export default Footer;
