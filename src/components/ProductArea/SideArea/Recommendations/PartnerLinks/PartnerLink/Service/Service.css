@@ -1,0 +1,19 @@
+.partner-profile__item {
+    text-decoration: none;
+    display: inline;
+}
+
+.partner-profile__item::after {
+    content: ' | ';
+    color: goldenrod;
+}
+
+.partner-profile__link {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.partner-profile__link:hover {
+    color: var(--soft-grey);
+}

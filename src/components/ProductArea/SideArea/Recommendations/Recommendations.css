@@ -1,0 +1,33 @@
+.profile {
+    background: #fffefe;
+    border: 1px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    width: 40rem;
+    padding: 1rem 3rem;
+    margin: 1rem;
+}
+
+.avatar-text_grey {
+    font-weight: bold;
+    color: var(--soft-grey);
+}
+
+.partner__header_red {
+    color: #b41f1f;
+}
+
+@media (max-width: 75rem) {
+    .profile {
+        width: 30rem;
+        padding: 1rem 3rem;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 50rem) {
+    .profile {
+        width: 25rem;
+        padding: 1rem 3rem;
+        margin: 1rem;
+    }
+}
