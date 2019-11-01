@@ -7,46 +7,14 @@
     justify-content: center;
 }
 
-.product-description_size-large {
-    font-size: 3rem;
-    padding-bottom: 1rem;
-    color: goldenrod;
-}
-
-.product-description_white-text {
-    margin: 0;
-    padding: 0;
-    color: white;
-}
-
-.product-description_padding {
-    padding-bottom: 2rem;
-}
-
 @media (max-width: 75rem) {
     .product-overview {
         height: 50vh;
-    }
-
-    .product-description_size-large {
-        font-size: 1.5rem;
-        margin: 0;
-        padding: 0.5rem 0;
-    }
-
-    .product-description_padding {
-        padding-bottom: 0.5rem;
     }
 }
 
 @media (max-width: 50rem) {
     .product-overview {
         height: 60vh;
-    }
-
-    .product-description_size-large {
-        font-size: 1rem;
-        margin: 0;
-        padding: 0.2rem 0;
     }
 }
