@@ -1,0 +1,19 @@
+.location-map {
+    width: 60rem;
+    height: 30rem;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 75rem) {
+    .location-map {
+        width: 35rem;
+        height: 20rem;
+    }
+}
+
+@media (max-width: 50rem) {
+    .location-map {
+        width: 25rem;
+    }
+}

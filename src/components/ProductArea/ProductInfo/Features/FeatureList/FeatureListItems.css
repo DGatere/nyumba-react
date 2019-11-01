@@ -1,0 +1,12 @@
+.product-amenities__items {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    padding-right: 5rem;
+}
+
+@media (max-width: 50rem) {
+    .product-amenities__items {
+        display: block;
+    }
+}

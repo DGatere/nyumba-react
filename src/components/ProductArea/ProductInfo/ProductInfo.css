@@ -1,0 +1,21 @@
+.property {
+    margin: 1rem;
+    width: 60rem;
+}
+
+.product-amenities {
+    margin-top: 1rem;
+}
+
+@media (max-width: 75rem) {
+    .property {
+        margin: 1rem;
+        width: 35rem;
+    }
+}
+
+@media (max-width: 50rem) {
+    .property {
+        width: 25rem;
+    }
+}
