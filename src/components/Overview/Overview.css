@@ -1,4 +1,4 @@
-.product-overview {
+.product-overview__landing {
     background: url('../../assets/images/back.jpg') 0 0 / cover no-repeat;
     width: 100%;
     height: 40vh;
@@ -8,13 +8,13 @@
 }
 
 @media (max-width: 75rem) {
-    .product-overview {
+    .product-overview__landing {
         height: 50vh;
     }
 }
 
 @media (max-width: 50rem) {
-    .product-overview {
+    .product-overview__landing {
         height: 60vh;
     }
 }

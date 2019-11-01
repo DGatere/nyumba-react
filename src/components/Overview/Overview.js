@@ -5,7 +5,7 @@ import ProductSelector from './ProductSelector/ProductSelector';
 
 const Overview = () => {
     return (
-        <section className='product-overview'>
+        <section className='product-overview__landing'>
             <ProductSelector />
         </section>
     );
