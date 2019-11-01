@@ -1,0 +1,20 @@
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(5, 12rem);
+    grid-template-rows: 60vh auto;
+    margin: 1rem;
+}
+
+@media (max-width: 75rem) {
+    .img-container {
+        grid-template-columns: repeat(5, 7rem);
+        grid-template-rows: 40vh auto;
+    }
+}
+
+@media (max-width: 50rem) {
+    .img-container {
+        grid-template-columns: repeat(5, 5rem);
+        grid-template-rows: 25vh auto;
+    }
+}

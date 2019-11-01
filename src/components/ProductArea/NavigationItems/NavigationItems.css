@@ -1,0 +1,24 @@
+.nav-content {
+    margin: 1rem;
+}
+
+.nav-tabs {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 75rem) {
+    .nav-tabs {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 50rem) {
+    .nav-tabs {
+        display: block;
+    }
+}
