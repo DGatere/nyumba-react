@@ -5,7 +5,7 @@ import './Avatar.css';
 const Avatar = () => (
     <div className='avatar'>
         <img
-            src={require('../../../../../assets/images/gemma.jpg')}
+            src={require('../../../../assets/images/gemma.jpg')}
             alt='avatar'
             className='img-avatar_circle'
         />
