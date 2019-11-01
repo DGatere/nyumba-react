@@ -8,7 +8,7 @@ const PartnerLinks = ({ name, services }) => (
         <p className='avatar-text avatar-text_bold'>{name}</p>
         <ul className='partner-profile__items'>
             {services.map(service => (
-                <PartnerLink service={service} />
+                <PartnerLink key={Math.random()} service={service} />
             ))}
         </ul>
         <div className='social'>

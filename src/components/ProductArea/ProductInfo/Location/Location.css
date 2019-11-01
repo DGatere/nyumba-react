@@ -1,3 +1,11 @@
+.location {
+    padding: 1rem 0;
+}
+
+.location-title {
+    margin-bottom: 2rem;
+}
+
 .location-map {
     width: 60rem;
     height: 30rem;

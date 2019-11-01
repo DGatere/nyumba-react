@@ -1,7 +1,9 @@
 import React from 'react';
 
+import './Description.css';
+
 const Description = () => (
-    <div>
+    <div className='product-description'>
         <h4>Property Description</h4>
         <p>
             Kisimani Heights apartments located at Kisimini, behind Mary Joy Primary School, Mombasa

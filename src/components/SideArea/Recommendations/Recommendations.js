@@ -38,7 +38,7 @@ const Recommendations = () => (
         <div>
             <Search />
             {partners.map(partner => (
-                <Partners partner={partner} />
+                <Partners key={Math.random()} partner={partner} />
             ))}
         </div>
     </aside>
