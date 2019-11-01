@@ -4,6 +4,7 @@ import './ContentGrid.css';
 import ImageGrid from '../../components/ProductArea/ImageGrid/ImageGrid';
 import NavigationItems from '../../components/ProductArea/NavigationItems/NavigationItems';
 import ProductInfo from '../../components/ProductArea/ProductInfo/ProductInfo';
+import Profile from '../../components/ProductArea//SideArea/Profile/Profile';
 import Recommendations from '../../components/ProductArea/SideArea/Recommendations/Recommendations';
 
 const ContentGrid = () => (
@@ -12,6 +13,7 @@ const ContentGrid = () => (
             <ImageGrid />
             <NavigationItems />
             <ProductInfo />
+            <Profile />
             <Recommendations />
         </section>
     </div>
