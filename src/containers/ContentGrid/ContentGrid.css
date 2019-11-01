@@ -1,0 +1,17 @@
+.content-grid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.product-area {
+    grid-area: aside;
+}
+
+@media (max-width: 50rem) {
+    .content-grid {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
