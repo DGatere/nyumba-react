@@ -1,16 +1,25 @@
 import React from 'react';
 
 import './NavigationItems.css';
-import NavigationItem from './NavigationItem/NavigationItem';
 
-const descriptions = ['DESCRIPTION', 'NYUMBA PARTNERS', 'SIMILAR PROPERTIES'];
-
-const NavigationItems = props => (
+const NavigationItems = ({ display, show }) => (
     <nav className='nav-content'>
         <ul className='nav-tabs'>
-            {descriptions.map(description => (
-                <NavigationItem key={Math.random()} desc={description} />
-            ))}
+            <li className='nav-tabs__list'>
+                <a href='# ' onClick={display} className={`nav-tabs__link ${show ? '' : 'active'}`}>
+                    DESCRIPTION
+                </a>
+            </li>
+            <li className='nav-tabs__list'>
+                <a href='# ' onClick={display} className={`nav-tabs__link ${show ? 'active' : ''}`}>
+                    NYUMBA PARTNERS
+                </a>
+            </li>
+            <li className='nav-tabs__list'>
+                <a href='# ' className='nav-tabs__link '>
+                    SIMILAR PROPERTIES
+                </a>
+            </li>
         </ul>
     </nav>
 );

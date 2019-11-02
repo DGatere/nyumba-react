@@ -5,8 +5,8 @@ import Description from './Description/Description';
 import Features from './Features/Features';
 import Location from './Location/Location';
 
-const ProductInfo = () => (
-    <div className='property'>
+const ProductInfo = ({ show }) => (
+    <div className={`property ${show ? 'show' : ''}`}>
         <Description />
         <div className='product-amenities'>
             <h4>Amenities</h4>
