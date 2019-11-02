@@ -6,12 +6,12 @@ import Landing from './Landing/Landing';
 import Property from './Property/Property';
 
 const App = () => (
-    <Layout>
-        <Router>
+    <Router>
+        <Layout>
             <Route path='/' exact component={Landing} />
             <Route path='/property' exact component={Property} />
-        </Router>
-    </Layout>
+        </Layout>
+    </Router>
 );
 
 export default App;
