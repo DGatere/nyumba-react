@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Header.css';
 import Toolbar from './Toolbar/Toolbar';
@@ -7,31 +8,31 @@ const Header = props => (
     <header className='header'>
         <Toolbar click={props.toggle} />
         <div className='logo'>
-            <a href='# '>
+            <Link to='/'>
                 <img src={require('../../assets/images/nyumba_logo.png')} alt='logo' />
-            </a>
+            </Link>
         </div>
         <nav className='header-nav'>
             <ul className='header-nav__items'>
                 <li className='header-nav__item'>
-                    <a href='# ' className='header-nav__link_grey'>
+                    <Link to='/property' className='header-nav__link_grey'>
                         Hot Properties
-                    </a>
+                    </Link>
                 </li>
                 <li className='header-nav__item'>
-                    <a href='# ' className='header-nav__link_grey'>
+                    <Link to='/property' className='header-nav__link_grey'>
                         View Properties
-                    </a>
+                    </Link>
                 </li>
                 <li className='header-nav__item '>
-                    <a href='# ' className='header-nav__link_golden-border'>
+                    <Link to='/property' className='header-nav__link_golden-border'>
                         Be A Partner
-                    </a>
+                    </Link>
                 </li>
                 <li className='header-nav__item'>
-                    <a href='# ' className='header-nav__link_theme-gold'>
+                    <Link to='/property' className='header-nav__link_theme-gold'>
                         Sell Property
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </nav>
