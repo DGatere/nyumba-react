@@ -1,14 +1,14 @@
 .footer-nav__items {
     display: flex;
     justify-content: center;
-    padding-top: 16rem;
+    padding-top: 10rem;
 }
 
 @media (max-width: 75rem) {
     .footer-nav__items {
         display: flex;
         justify-content: center;
-        padding-top: 6rem;
+        padding-top: 5rem;
         margin: 0;
     }
 }
