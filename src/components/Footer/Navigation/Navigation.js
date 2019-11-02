@@ -1,38 +1,21 @@
 import React from 'react';
 
 import './Navigation.css';
+import NavItems from './NavItems/NavItems';
+
+const navContent = [
+    { metrics: '262k', description: 'listing for sales', link: 'Sell Property' },
+    { metrics: '500k', description: 'listing for rent', link: 'Rent Property' },
+    { metrics: '120k', description: 'Business Partners', link: 'Be a Partner' }
+];
 
 const Navigation = () => {
     return (
         <nav>
             <ul className='footer-nav__items'>
-                <ul className='footer-items'>
-                    <li className='footer-list__item'>262k</li>
-                    <li>listing for sales</li>
-                    <li className='footer-list_pad'>
-                        <a href='# ' className='footer__link'>
-                            Sell Property
-                        </a>
-                    </li>
-                </ul>
-                <ul className='footer-items'>
-                    <li className='footer-list__item'>500k</li>
-                    <li>listing for rent</li>
-                    <li className='footer-list_pad'>
-                        <a href='# ' className='footer__link'>
-                            Rent Property
-                        </a>
-                    </li>
-                </ul>
-                <ul className='footer-items'>
-                    <li className='footer-list__item'>120k</li>
-                    <li>Business Partners</li>
-                    <li className='footer-list_pad'>
-                        <a href='# ' className='footer__link'>
-                            Be a partner
-                        </a>
-                    </li>
-                </ul>
+                {navContent.map(navItems => (
+                    <NavItems items={navItems} />
+                ))}
             </ul>
         </nav>
     );

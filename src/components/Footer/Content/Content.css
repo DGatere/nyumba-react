@@ -9,6 +9,11 @@
     color: goldenrod;
 }
 
+.footer-description {
+    width: 20rem;
+    color: white;
+}
+
 .footer__link {
     text-decoration: none;
     border: 0.1rem solid goldenrod;
