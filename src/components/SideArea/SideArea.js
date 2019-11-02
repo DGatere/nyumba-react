@@ -1,12 +1,12 @@
 import React from 'react';
 
 import Profile from './Profile/Profile';
-import Recommendations from './Recommendations/Recommendations';
+import Interests from './Interests/Interests';
 
 const SideArea = () => (
     <section>
         <Profile />
-        <Recommendations />
+        <Interests />
     </section>
 );
 
