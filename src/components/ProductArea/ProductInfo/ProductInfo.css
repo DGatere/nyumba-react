@@ -1,26 +1,29 @@
 .property {
-    margin: 1rem;
-    width: 60rem;
-    margin-bottom: 4rem;
+    margin: 0.5rem;
+    width: 28rem;
 }
 
 .product-amenities {
     margin-top: 1rem;
 }
 
+.product-amenities h4 {
+    text-align: center;
+}
+
+.list-group {
+    display: flex;
+    justify-content: space-between;
+}
+
 .show {
     display: none;
 }
 
-@media (max-width: 75rem) {
+@media (min-width: 40rem) {
     .property {
         margin: 1rem;
-        width: 35rem;
-    }
-}
-
-@media (max-width: 50rem) {
-    .property {
-        width: 25rem;
+        width: 60rem;
+        margin-bottom: 4rem;
     }
 }

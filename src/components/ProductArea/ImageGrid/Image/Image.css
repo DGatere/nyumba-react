@@ -1,38 +1,20 @@
 .img {
-    height: 60vh;
-    width: 60rem;
-    box-shadow: 2px -2px 2px 1px rgba(0, 0, 0, 0.2);
-    grid-column: 1 / -1;
+    width: 30rem;
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .img__row {
-    height: 10vh;
-    width: 12rem;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: none;
 }
 
-@media (max-width: 75rem) {
+@media (min-width: 40rem) {
     .img {
-        height: 40vh;
-        width: 35rem;
+        width: 60rem;
+        grid-column: 1 / -1;
     }
 
     .img__row {
-        height: 10vh;
-        width: 7rem;
-    }
-}
-
-@media (max-width: 50rem) {
-    .img {
-        height: 25vh;
-        width: 25rem;
-    }
-
-    .img__row {
-        height: 5vh;
-        width: 5rem;
+        display: inline-flex;
+        width: 12rem;
     }
 }

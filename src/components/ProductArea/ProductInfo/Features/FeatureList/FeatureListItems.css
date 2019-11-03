@@ -1,12 +1,14 @@
 .product-amenities__items {
-    display: inline-block;
+    display: block;
     list-style: none;
-    padding: 0;
-    padding-right: 5rem;
+    padding-bottom: 1rem;
 }
 
-@media (max-width: 50rem) {
+@media (min-width: 40rem) {
     .product-amenities__items {
-        display: block;
+        display: inline-block;
+        list-style: none;
+        padding: 0;
+        padding-right: 5rem;
     }
 }

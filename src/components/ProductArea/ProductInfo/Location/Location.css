@@ -7,21 +7,15 @@
 }
 
 .location-map {
-    width: 60rem;
-    height: 30rem;
+    height: 20rem;
+    width: 29rem;
     border: none;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 75rem) {
+@media (min-width: 40rem) {
     .location-map {
-        width: 35rem;
-        height: 20rem;
-    }
-}
-
-@media (max-width: 50rem) {
-    .location-map {
-        width: 25rem;
+        width: 60rem;
+        height: 30rem;
     }
 }

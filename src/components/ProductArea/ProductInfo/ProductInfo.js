@@ -10,7 +10,7 @@ const ProductInfo = ({ show }) => (
         <Description />
         <div className='product-amenities'>
             <h4>Amenities</h4>
-            <div>
+            <div className='list-group'>
                 <Features />
             </div>
         </div>
