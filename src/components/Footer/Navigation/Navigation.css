@@ -6,6 +6,7 @@
 @media (min-width: 40rem) {
     .footer-nav__items {
         flex-direction: row;
-        padding-top: 10rem;
+        justify-content: center;
+        padding-top: 15rem;
     }
 }
