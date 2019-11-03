@@ -1,3 +1,8 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
 .form__select_theme_golden_white {
     position: relative;
     background: white;
@@ -5,8 +10,8 @@
     border: none;
     border-right: 1px solid goldenrod;
     border-radius: 0.1rem;
-    margin: 0;
-    padding: 1rem 2rem;
+    margin: 0.1rem;
+    padding: 0.2rem 0.5rem;
     -webkit-appearance: none;
     appearance: none;
     background-image: url('../../../../assets/images/dropdown.svg');
@@ -19,7 +24,7 @@
 
 .form__option_pad {
     font-weight: bold;
-    padding: 1.8rem;
+    padding: 0.5rem;
 }
 
 .form__button_theme_inverse {
@@ -34,26 +39,18 @@
     color: var(--soft-grey);
 }
 
-@media (max-width: 75rem) {
-    .form__select_theme_golden_white {
-        padding: 0.8rem 1.5rem;
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 50rem) {
+@media (min-width: 40rem) {
     .form {
-        display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .form__select_theme_golden_white {
-        margin: 0.1rem;
-        padding: 0.2rem 0.5rem;
+        margin: 0;
+        padding: 1rem 2rem;
         font-size: 1rem;
     }
 
     .form__option_pad {
-        padding: 0.5rem;
+        padding: 1.8rem;
     }
 }

@@ -1,6 +1,6 @@
 .product-description_size-large {
-    font-size: 3rem;
-    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem 0;
     color: goldenrod;
 }
 
@@ -11,25 +11,13 @@
 }
 
 .product-description_padding {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
-@media (max-width: 75rem) {
+@media (min-width: 40rem) {
     .product-description_size-large {
-        font-size: 1.5rem;
+        font-size: 3rem;
         margin: 0;
-        padding: 0.5rem 0;
-    }
-
-    .product-description_padding {
-        padding-bottom: 0.5rem;
-    }
-}
-
-@media (max-width: 50rem) {
-    .product-description_size-large {
-        font-size: 1rem;
-        margin: 0;
-        padding: 0.2rem 0;
+        padding: 1;
     }
 }

@@ -1,20 +1,14 @@
 .product-overview__landing {
     background: url('../../assets/images/back.jpg') 0 0 / cover no-repeat;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-@media (max-width: 75rem) {
+@media (min-width: 40rem) {
     .product-overview__landing {
-        height: 50vh;
-    }
-}
-
-@media (max-width: 50rem) {
-    .product-overview__landing {
-        height: 60vh;
+        height: 40vh;
     }
 }
