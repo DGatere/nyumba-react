@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Recommendations from '../../../Recommendations/Recommendations';
+import Recommendations from '../../Recommendations/Recommendations';
 
 const Interests = ({ show }) => (
     <div className={`profile ${show ? '' : 'show'}`}>

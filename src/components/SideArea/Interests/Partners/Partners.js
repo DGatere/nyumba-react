@@ -1,8 +1,8 @@
 import React from 'react';
 
 import './Partners.css';
-import PartnerAvatar from '../PartnerAvatar/PartnerAvatar';
-import PartnerLinks from '../PartnerLinks/PartnerLinks';
+import PartnerAvatar from './PartnerAvatar/PartnerAvatar';
+import PartnerLinks from './PartnerLinks/PartnerLinks';
 
 const Partners = ({ partner }) => (
     <div className='profile-details'>

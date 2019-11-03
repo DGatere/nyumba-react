@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import ImageGrid from './ImageGrid/ImageGrid';
 import NavigationItems from './NavigationItems/NavigationItems';
 import ProductInfo from './ProductInfo/ProductInfo';
-import Interests from './ProductInfo/Interests/Interests';
+import Interests from './Interests/Interests';
 
 class ProductArea extends Component {
     state = {
