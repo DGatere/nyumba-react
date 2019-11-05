@@ -28,7 +28,12 @@ const Navigation = () => {
                     </li>
                     <li className='nav-location__item_separate'>
                         <a className='nav-location__link' href='# '>
-                            View All<i className='angle double right icon'></i>
+                            View All
+                            <img
+                                src={require('.././../../assets/images/view-all.svg')}
+                                alt='view all'
+                                className='angle-double-right__icon'
+                            />
                         </a>
                     </li>
                 </ul>

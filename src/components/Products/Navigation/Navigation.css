@@ -48,9 +48,8 @@
     text-decoration: none;
 }
 
-.nav-location__link:hover,
-.nav-location__link:active {
-    color: var(--soft-grey);
+.angle-double-right__icon {
+    margin-left: 0.2rem;
 }
 
 @media (max-width: 75rem) {
