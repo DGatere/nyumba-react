@@ -104,12 +104,7 @@ class FilterPropertyForm extends Component {
                     value='Submit'
                     className='form__select_theme_golden_white form__button_theme_inverse'>
                     <svg width='13px' height='14px' viewBox='0 0 17 18' className='search__icon'>
-                        <g
-                            id='Icons'
-                            stroke='none'
-                            stroke-width='1'
-                            fill='none'
-                            fill-rule='evenodd'>
+                        <g id='Icons' stroke='none' fill='none'>
                             <g id='Rounded' transform='translate(-545.000000, -421.000000)'>
                                 <g id='Action' transform='translate(100.000000, 100.000000)'>
                                     <g
