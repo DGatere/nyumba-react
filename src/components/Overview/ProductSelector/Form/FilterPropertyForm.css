@@ -33,6 +33,12 @@
     cursor: pointer;
 }
 
+#Icon-Color {
+    fill: white;
+    width: '13px';
+    height: '14px';
+}
+
 @media (min-width: 40rem) {
     .form {
         flex-direction: row;
