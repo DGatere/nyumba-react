@@ -103,7 +103,12 @@ class FilterPropertyForm extends Component {
                     type='submit'
                     value='Submit'
                     className='form__select_theme_golden_white form__button_theme_inverse'>
-                    <i className='search icon'></i>Find
+                    <img
+                        src={require('../../../../assets/images/search1.svg')}
+                        className='search__icon'
+                        alt='search-icon'
+                    />
+                    Find
                 </button>
             </form>
         );

@@ -9,7 +9,7 @@
 }
 
 .nav-location__item {
-    margin: 2rem 0.5rem;
+    margin: 1.5rem 0.5rem;
 }
 
 .nav-location__item_left_margin {
@@ -35,6 +35,11 @@
 
 .nav-location__item_separate {
     margin-left: 10rem;
+}
+
+.search__icon {
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 .nav-location__link {

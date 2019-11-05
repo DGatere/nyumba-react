@@ -33,11 +33,6 @@
     cursor: pointer;
 }
 
-.form__button_theme_inverse:hover {
-    background: white;
-    color: var(--soft-grey);
-}
-
 @media (min-width: 40rem) {
     .form {
         flex-direction: row;

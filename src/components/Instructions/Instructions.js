@@ -8,11 +8,21 @@ const Instructions = () => {
             <div className='instructions'>
                 <h3>How it works</h3>
                 <p>
-                    <i className='check circle icon red'></i>Simply select a property to buy or rent
+                    <img
+                        src={require('../../assets/images/check.svg')}
+                        className='instruction__icon'
+                        alt='check-icon'
+                    />
+                    Simply select a property to buy or rent
                 </p>
                 <p>
-                    <i className='check circle icon red'></i>Nyumba will recommend for you the
-                    appropriate business partners to support you and MAKE IT HAPPEN
+                    <img
+                        src={require('../../assets/images/check.svg')}
+                        className='instruction__icon'
+                        alt='check-icon'
+                    />
+                    Nyumba will recommend for you the appropriate business partners to support you
+                    and MAKE IT HAPPEN
                 </p>
             </div>
         </section>

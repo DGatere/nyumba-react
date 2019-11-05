@@ -7,4 +7,4 @@ import App from './containers/App';
 
 ReactDOM.render(<App />, document.querySelector('#root'));
 
-serviceWorker.register();
+serviceWorker.unregister();

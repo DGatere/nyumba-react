@@ -1,8 +1,14 @@
 import React from 'react';
 
+import './FeatureListItem.css';
+
 const FeatureListItem = props => (
     <li>
-        <i className='check icon small red'></i>
+        <img
+            src={require('../../../../../assets/images/tick.svg')}
+            alt='tick-icon'
+            className='check_small'
+        />
         {props.feature}
     </li>
 );

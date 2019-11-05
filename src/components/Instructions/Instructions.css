@@ -11,6 +11,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.instruction__icon {
+    vertical-align: middle;
+    margin: 5px;
+}
+
 @media (max-width: 50rem) {
     .instructions {
         align-items: flex-start;

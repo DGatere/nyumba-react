@@ -17,8 +17,13 @@ const Navigation = () => {
                         <a href='# '>Kisumu</a>
                     </li>
                     <li className='nav-location__item'>
-                        <a href='# '>
-                            <i className='search icon'></i>Search Location
+                        <a href='# ' className='search__item'>
+                            <img
+                                src={require('../../../assets/images/search.svg')}
+                                className='search__icon'
+                                alt='search-icon'
+                            />
+                            Search Location
                         </a>
                     </li>
                     <li className='nav-location__item_separate'>
