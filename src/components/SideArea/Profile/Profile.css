@@ -2,12 +2,6 @@
     color: #b41f1f;
 }
 
-.profile-details {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5rem;
-}
-
 .avatar-text {
     margin: 0;
     padding: 0;
@@ -20,6 +14,7 @@
 .avatar-text_grey {
     font-weight: bold;
     color: var(--soft-grey);
+    padding-top: 0.2rem;
 }
 
 .social {

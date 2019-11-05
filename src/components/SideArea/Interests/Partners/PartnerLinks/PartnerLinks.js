@@ -2,6 +2,7 @@ import React from 'react';
 
 import './PartnerLinks.css';
 import PartnerLink from './PartnerLink/PartnerLink';
+import Social from '../../../Profile/Social/Social';
 
 const PartnerLinks = ({ name, services }) => (
     <div>
@@ -11,13 +12,7 @@ const PartnerLinks = ({ name, services }) => (
                 <PartnerLink key={Math.random()} service={service} />
             ))}
         </ul>
-        <div className='social'>
-            <i className='envelope icon'></i>
-            <i className='phone square icon'></i>
-            <i className='twitter icon'></i>
-            <i className='facebook f icon'></i>
-            <i className='instagram icon'></i>
-        </div>
+        <Social />
     </div>
 );
 

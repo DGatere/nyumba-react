@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Profile.css';
 import Avatar from './Avatar/Avatar';
+import Social from './Social/Social';
 
 const Profile = () => (
     <aside className='profile'>
@@ -11,13 +12,7 @@ const Profile = () => (
             <div>
                 <p className='avatar-text avatar-text_bold'>VIRAL SHAH</p>
                 <p className='avatar-text avatar-text_grey'>findit.com</p>
-                <div className='social'>
-                    <i className='envelope icon'></i>
-                    <i className='phone square icon'></i>
-                    <i className='twitter icon'></i>
-                    <i className='facebook f icon'></i>
-                    <i className='instagram icon'></i>
-                </div>
+                <Social />
             </div>
         </div>
     </aside>
