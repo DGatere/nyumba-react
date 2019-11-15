@@ -1,42 +1,34 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
 import Header from '../../components/Header/Header';
 import SideDrawer from '../../components/SideDrawer/SideDrawer';
 import Backdrop from '../../components/Backdrop/Backdrop';
 
-class Layout extends Component {
-    state = {
-        drawerOpen: false
+const Layout = props => {
+    const [drawerOpen, setDrawerOpen] = useState(false);
+
+    const drawerToggleClickHandler = () => {
+        setDrawerOpen(!drawerOpen);
     };
 
-    drawerToggleClickHandler = () => {
-        this.setState(prevState => {
-            return {
-                drawerOpen: !prevState.drawerOpen
-            };
-        });
+    const backdropClickHandler = () => {
+        setDrawerOpen(false);
     };
 
-    backdropClickHandler = () => {
-        this.setState({ drawerOpen: false });
-    };
+    let backDrop;
 
-    render() {
-        let backDrop;
-
-        if (this.state.drawerOpen) {
-            backDrop = <Backdrop close={this.backdropClickHandler} />;
-        }
-
-        return (
-            <>
-                <Header toggle={this.drawerToggleClickHandler} />
-                <SideDrawer show={this.state.drawerOpen} />
-                {backDrop}
-                <main>{this.props.children}</main>
-            </>
-        );
+    if (drawerOpen) {
+        backDrop = <Backdrop close={backdropClickHandler} />;
     }
-}
+
+    return (
+        <>
+            <Header toggle={drawerToggleClickHandler} />
+            <SideDrawer show={drawerOpen} />
+            {backDrop}
+            <main>{props.children}</main>
+        </>
+    );
+};
 
 export default Layout;

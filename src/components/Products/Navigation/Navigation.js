@@ -1,5 +1,7 @@
 import React from 'react';
 
+import search from '../../../assets/images/search.svg';
+import viewAll from '../../../assets/images/view-all.svg';
 import './Navigation.css';
 
 const Navigation = () => {
@@ -18,11 +20,7 @@ const Navigation = () => {
                     </li>
                     <li className='nav-location__item'>
                         <a href='# ' className='search__item'>
-                            <img
-                                src={require('../../../assets/images/search.svg')}
-                                className='search__icon'
-                                alt='search-icon'
-                            />
+                            <img src={search} className='search__icon' alt='search-icon' />
                             Search Location
                         </a>
                     </li>
@@ -30,7 +28,7 @@ const Navigation = () => {
                         <a className='nav-location__link' href='# '>
                             View All
                             <img
-                                src={require('.././../../assets/images/view-all.svg')}
+                                src={viewAll}
                                 alt='view all'
                                 className='angle-double-right__icon'
                             />

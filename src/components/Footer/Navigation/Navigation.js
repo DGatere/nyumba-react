@@ -1,4 +1,5 @@
 import React from 'react';
+import uuid from 'uuid/v4';
 
 import './Navigation.css';
 import NavItems from './NavItems/NavItems';
@@ -14,7 +15,7 @@ const Navigation = () => {
         <nav>
             <ul className='footer-nav__items'>
                 {navContent.map(navItems => (
-                    <NavItems key={Math.random()} items={navItems} />
+                    <NavItems key={uuid()} items={navItems} />
                 ))}
             </ul>
         </nav>

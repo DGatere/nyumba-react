@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './Products.css';
 import Navigation from './Navigation/Navigation';
 import FeaturedContent from './Featured/Featured';
+import './Products.css';
 
 const Products = () => {
     return (

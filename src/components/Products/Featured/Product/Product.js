@@ -1,5 +1,6 @@
 import React from 'react';
 
+import office from '../../../../assets/images/office.jpg';
 import './Product.css';
 
 const Product = () => {
@@ -9,11 +10,7 @@ const Product = () => {
                 <div className='product__img-holder'>
                     <div className='featured'>featured</div>
                     <a href='# '>
-                        <img
-                            src={require('../../../../assets/images/office.jpg')}
-                            alt='apartment'
-                            className='product__img-item'
-                        />
+                        <img src={office} alt='apartment' className='product__img-item' />
                     </a>
                 </div>
             </div>

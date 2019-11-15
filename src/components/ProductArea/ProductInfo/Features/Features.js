@@ -1,4 +1,5 @@
 import React from 'react';
+import uuid from 'uuid/v4';
 
 import FeatureList from './FeatureList/FeatureListItems';
 
@@ -9,8 +10,6 @@ const keyFeatures = {
 };
 
 const Features = () =>
-    Object.keys(keyFeatures).map(items => (
-        <FeatureList key={Math.random()} items={keyFeatures[items]} />
-    ));
+    Object.keys(keyFeatures).map(items => <FeatureList key={uuid()} items={keyFeatures[items]} />);
 
 export default Features;

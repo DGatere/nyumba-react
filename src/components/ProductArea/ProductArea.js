@@ -1,31 +1,25 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
 import ImageGrid from './ImageGrid/ImageGrid';
 import NavigationItems from './NavigationItems/NavigationItems';
 import ProductInfo from './ProductInfo/ProductInfo';
 import Interests from './Interests/Interests';
 
-class ProductArea extends Component {
-    state = {
-        display: false
+const ProductArea = () => {
+    const [display, setDisplay] = useState(false);
+
+    const displayButtonClicked = () => {
+        setDisplay(!display);
     };
 
-    displayButtonClicked = () => {
-        this.setState(prevState => ({
-            display: !prevState.display
-        }));
-    };
-
-    render() {
-        return (
-            <section>
-                <ImageGrid />
-                <NavigationItems display={this.displayButtonClicked} show={this.state.display} />
-                <ProductInfo show={this.state.display} />
-                <Interests show={this.state.display} />
-            </section>
-        );
-    }
-}
+    return (
+        <section>
+            <ImageGrid />
+            <NavigationItems display={displayButtonClicked} show={display} />
+            <ProductInfo show={display} />
+            <Interests show={display} />
+        </section>
+    );
+};
 
 export default ProductArea;

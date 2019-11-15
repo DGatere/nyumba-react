@@ -1,4 +1,5 @@
 import React from 'react';
+import uuid from 'uuid/v4';
 
 import Search from '../Search/Search';
 import Partners from '../SideArea/Interests/Partners/Partners';
@@ -34,7 +35,7 @@ const Recommendations = () => (
     <div>
         <Search />
         {partners.map(partner => (
-            <Partners key={Math.random()} partner={partner} />
+            <Partners key={uuid()} partner={partner} />
         ))}
     </div>
 );

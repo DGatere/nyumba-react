@@ -1,4 +1,5 @@
 import React from 'react';
+import uuid from 'uuid/v4';
 
 import './PartnerLinks.css';
 import PartnerLink from './PartnerLink/PartnerLink';
@@ -9,7 +10,7 @@ const PartnerLinks = ({ name, services }) => (
         <p className='avatar-text avatar-text_bold'>{name}</p>
         <ul className='partner-profile__items'>
             {services.map(service => (
-                <PartnerLink key={Math.random()} service={service} />
+                <PartnerLink key={uuid()} service={service} />
             ))}
         </ul>
         <Social />
