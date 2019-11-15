@@ -12,7 +12,7 @@ const FilterPropertyForm = () => {
     });
 
     const handleChange = event => {
-        setFormFields({ [event.target.name]: event.target.value });
+        setFormFields({ ...formFields, [event.target.name]: event.target.value });
     };
 
     const handleSubmit = event => {
