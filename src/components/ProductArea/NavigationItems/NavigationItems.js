@@ -1,27 +1,28 @@
 import React from 'react';
+import { NavLink, withRouter } from 'react-router-dom';
 
 import './NavigationItems.css';
 
-const NavigationItems = ({ display, show }) => (
+const NavigationItems = props => (
     <nav className='nav-content'>
         <ul className='nav-tabs'>
             <li className='nav-tabs__list'>
-                <a href='# ' onClick={display} className={`nav-tabs__link ${show ? '' : 'active'}`}>
+                <NavLink to={props.match.url} exact className='nav-tabs__link'>
                     DESCRIPTION
-                </a>
+                </NavLink>
             </li>
             <li className='nav-tabs__list'>
-                <a href='# ' onClick={display} className={`nav-tabs__link ${show ? 'active' : ''}`}>
+                <NavLink to={`${props.match.url}/partners`} className='nav-tabs__link'>
                     NYUMBA PARTNERS
-                </a>
+                </NavLink>
             </li>
             <li className='nav-tabs__list'>
-                <a href='# ' className='nav-tabs__link '>
+                <NavLink to={`${props.match.url}/properties`} exact className='nav-tabs__link '>
                     SIMILAR PROPERTIES
-                </a>
+                </NavLink>
             </li>
         </ul>
     </nav>
 );
 
-export default NavigationItems;
+export default withRouter(NavigationItems);

@@ -8,8 +8,8 @@ import Property from './Property/Property';
 const App = () => (
     <Router>
         <Layout>
+            <Route path='/property' component={Property} />
             <Route path='/' exact component={Landing} />
-            <Route path='/property' exact component={Property} />
         </Layout>
     </Router>
 );
