@@ -5,6 +5,7 @@ import ImageGrid from './ImageGrid/ImageGrid';
 import NavigationItems from './NavigationItems/NavigationItems';
 import ProductInfo from './ProductInfo/ProductInfo';
 import Interests from './Interests/Interests';
+import Properties from './Properties/Properties';
 
 const ProductArea = props => {
     return (
@@ -13,7 +14,7 @@ const ProductArea = props => {
             <NavigationItems />
             <Route path={`${props.match.url}/partners`} exact component={Interests} />
             <Route path={props.match.url} exact component={ProductInfo} />
-            <Route path={`${props.match.url}/properties`} exact component={Interests} />
+            <Route path={`${props.match.url}/properties`} exact component={Properties} />
         </section>
     );
 };

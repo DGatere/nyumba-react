@@ -1,0 +1,12 @@
+.ProductGrid {
+    max-width: 868px;
+    width: 100%;
+}
+
+.ProductImageContainer {
+    display: flex;
+}
+
+.ProductImage {
+    width: 50%;
+}
