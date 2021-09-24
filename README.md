@@ -4,6 +4,10 @@ In the project directory, you can run:
 
 ### `yarn`
 
+Install npm packages, you can run:
+
+### `yarn install`
+
 Installs the required npm packages.
 
 ### `yarn start`
