@@ -1,0 +1,24 @@
+version: "3"
+networks:
+  proxynet:
+    external:
+      name: nyumba.network
+
+services:
+  nyumba:
+    container_name: nyumba
+    image: nyumba
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ".:/app"
+      - "/app/node_modules"
+    ports:
+      - 3001:3000
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    networks:
+      - proxynet
+    stdin_open: true
